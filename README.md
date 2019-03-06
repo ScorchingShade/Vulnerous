@@ -23,12 +23,24 @@ A snippet of the script is shown below:
 PRIV_IP_ADDR=`hostname -I | awk '{print $1}'`
 ```
 ### Prerequisites
-- **N-Map** --> Easily download N-map using the official Link. [N-Map](https://nmap.org/download.html)
-or using the commandline utility on debian 
+- **N-Map** --> Easily download N-map using the official Link. [N-Map](https://nmap.org/download.html)<br />
+or using the commandline utility on debian systems
+```terminal
+sudo apt-get install N-MAP
+```
+- **Command Line Calculator** --> Download the 'bc' calculator using following commands.
 ```terminal
 sudo apt-get install bc
 ```
-- **Command Line Calculator** --> Download the 'bc' calculator using following commands.
+- **Linux OS** - Debian based distro is preferred.
 
 ### Using Vulnerous
-- To start Vulnerous, clone the repository 
+- To start Vulnerous, clone the repository and install any prerequisite package.
+- Make the script executable by typing following as root in terminal :
+```terminal
+chmod u+x killer.sh
+```
+- Execute the script using the following command :
+```terminal
+./killer.sh
+```
