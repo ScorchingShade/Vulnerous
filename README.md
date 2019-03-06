@@ -16,6 +16,10 @@ Vulnerous is still in development and consists of the following suites :-
 ## Getting Started
 > The best thing about vulnerous is its simplicity and ease of use. You don't have to understand a lot of tools and networking to generate reports! This is a true chill dream!!
 
+The Vulnerous source code is written in Bash script. It easy enough to understand and contributions to the script are always welcome.
+
+A snippet of the script is shown below:
 ```bash
 PRIV_IP_ADDR=`hostname -I | awk '{print $1}'`
 ```
+
