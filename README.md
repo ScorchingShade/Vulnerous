@@ -45,4 +45,4 @@ chmod u+x killer.sh
 ./killer.sh
 ```
 ## Built by 
-### [Ankush Sharma](ankushsharma.co) 
+### [Ankush Sharma](https://ankushsharma.co) 
