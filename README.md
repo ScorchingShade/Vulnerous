@@ -22,4 +22,13 @@ A snippet of the script is shown below:
 ```bash
 PRIV_IP_ADDR=`hostname -I | awk '{print $1}'`
 ```
+### Prerequisites
+- **N-Map** --> Easily download N-map using the official Link. [N-Map](https://nmap.org/download.html)
+or using the commandline utility on debian 
+```terminal
+sudo apt-get install bc
+```
+- **Command Line Calculator** --> Download the 'bc' calculator using following commands.
 
+### Using Vulnerous
+- To start Vulnerous, clone the repository 
