@@ -44,3 +44,5 @@ chmod u+x killer.sh
 ```terminal
 ./killer.sh
 ```
+## Built by 
+### [Ankush Sharma](ankushsharma.co) 
