@@ -44,5 +44,15 @@ chmod u+x killer.sh
 ```terminal
 ./killer.sh
 ```
-## Built by 
-### [Ankush Sharma](https://ankushsharma.co) 
+## Contributing
+Vulnerous is still in development and
+## Author
+### [Ankush Sharma](https://scorchingshade.github.io/) 
+- [LinkedIn](https://linkedin.com/in/ankush-sharma-a9b24a37/)
+- [Facebook](https://www.facebook.com/kushuas)
+- [Medium](https://medium.com/@ankushsharma_70830)
+- **Mail** - ankushors789@gmail.com
+
+I code, I write, I hack, I preach. <br />
+Always available for any opportunities! (Pssst...I am really passionate about cybersecurity)
+
