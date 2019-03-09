@@ -5,6 +5,8 @@
 #The Script shall also function on other networking tools such as IPtables and firewalls in order to determine the state of the network. 
 #It shall relay information to the user about the forensics and info about various happenings such as your ip etc.
 
+#Two modules are present currently. The IP module and the Reconnaissance module.
+
 ###Fetch IP public and private#####
 PRIV_IP_ADDR=`hostname -I | awk '{print $1}'`
 PUB_IP_ADDR=`wget -qO- https://ipecho.net/plain ; echo`
