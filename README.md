@@ -3,7 +3,7 @@
 Vulnerous is a linux script that aggregates several network security and analysis features into an easy to understand package. **Vulnerous** provides a simplified **commandline** interface which is best suited for beginners and security enthusiasts trying to dive into cybersecurity.
 
 ### What's New in version 2.0?
-> Encryptor© by Ankush Sharma support provided. 
+> The Encryptor© by Ankush Sharma support provided. 
 > Now encrypt your passwords by state of the art AES 128 bit Encryption. A protected file available for easy sharing on web makes your life easy as a security admin of your team!
 
 ## Suites
@@ -12,6 +12,7 @@ Vulnerous is still in development and consists of the following suites :-
 
 - **IP Finder Suite** - The IP Finder helps you to find both your public and private IP's with a quick command.
 - **Reconnaissance Suite** - The reconnaissance suite integrates several features from N-Map to intelligently find and document your results. Reports are generated to document analysed networks.
+- **The Encryptor©** - The Encryptor allows for a wider cryptographic access within Vulnerous. Read more about the encryptor at [Encryptor©](https://github.com/ScorchingShade/Encryptor)
 
 ## Understanding Vulnerous
 ![alt text](https://github.com/ScorchingShade/Vulnerous/blob/master/uml_vulnerous.png)
@@ -48,7 +49,7 @@ chmod u+x killer.sh
 ./killer.sh
 ```
 ## Contributing
-Vulnerous is still in development and
+Vulnerous is still in development and to contribute to this awesome software please contact the author.
 ## Author
 ### [Ankush Sharma](https://scorchingshade.github.io/) 
 - [LinkedIn](https://linkedin.com/in/ankush-sharma-a9b24a37/)
