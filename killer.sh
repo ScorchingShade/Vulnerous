@@ -7,6 +7,12 @@
 
 #Two modules are present currently. The IP module and the Reconnaissance module.
 
+#The Encryptor © by Ankush Sharma makes official debut in version 1.2 #######################
+#To learn more about the encryptor visit https://github.com/ScorchingShade/Encryptor ######## 
+
+VERSION="1.2"
+#### Declare global vars #########
+CURRENT_DIR=`pwd`
 ###Fetch IP public and private#####
 PRIV_IP_ADDR=`hostname -I | awk '{print $1}'`
 PUB_IP_ADDR=`wget -qO- https://ipecho.net/plain ; echo`
@@ -97,6 +103,15 @@ function find_ip(){
 	echo "Exiting IP Suite..."
 }
 
+### Adding the Encryptor Module support #####
+### The Encryptor ©  is a software by Ankush Sharma ##
+### Please read the license before its usage #######
+function Encryptor(){
+	`gnome-terminal -e "python3 $CURRENT_DIR/Source.py"`
+
+}
+
+
 function nmap(){
 
 	###Target analysis##
@@ -166,7 +181,7 @@ __init__
 
 while [[ 1 ]]; do
 	
-	printf "\nPlease chose your suite below:\n1) IP Finder suite\n2) Reconnaissance Suite.\n3) Exit Vulnerous.\n"
+	printf "\nPlease chose your suite below:\n1) IP Finder suite\n2) Reconnaissance Suite.\n3) Encryptor ©  by Ankush\n4) Exit Vulnerous.\n"
 	read option
 
 	case $option in
@@ -179,7 +194,10 @@ while [[ 1 ]]; do
 			nmap
 			;;
 
-		3 ) echo "Are you sure you want to exit Vulnerous? (y/n)"
+		3 ) echo "Loading Encryptor ©  by Ankush"
+			Encryptor
+			;;
+		4 ) echo "Are you sure you want to exit Vulnerous? (y/n)"
 			read choice
 
 			if [ "$choice" = "y" ] || [ "$choice" = "Y" ] || [ "$choice" = "yes" ] || [ "$choice" = "YES" ] || [ "$choice" = "Yes" ];then
@@ -188,7 +206,7 @@ while [[ 1 ]]; do
 			else
 				continue	
 			fi	
-			;;
+			;;	
 
 		esac
 
