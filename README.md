@@ -1,7 +1,10 @@
-# Vulnerous v0.01
+# Vulnerous v2.0
 
 Vulnerous is a linux script that aggregates several network security and analysis features into an easy to understand package. **Vulnerous** provides a simplified **commandline** interface which is best suited for beginners and security enthusiasts trying to dive into cybersecurity.
 
+### What's New in version 2.0?
+> Encryptor© by Ankush Sharma support provided. 
+> Now encrypt your passwords by state of the art AES 128 bit Encryption. A protected file available for easy sharing on web makes your life easy as a security admin of your team!
 
 ## Suites
 
