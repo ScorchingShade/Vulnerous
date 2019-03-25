@@ -6,6 +6,11 @@ Vulnerous is a linux script that aggregates several network security and analysi
 > The Encryptor© by Ankush Sharma support provided. 
 > Now encrypt your passwords by state of the art AES 128 bit Encryption. A protected file available for easy sharing on web makes your life easy as a security admin of your team!
 
+### Upcoming
+> Wider Encryption support to be added soon for the Encryptor! 
+> More modules to be added!
+
+
 ## Suites
 
 Vulnerous is still in development and consists of the following suites :-
