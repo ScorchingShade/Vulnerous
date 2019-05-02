@@ -9,6 +9,7 @@ Vulnerous is a linux script that aggregates several network security and analysi
 ### Upcoming
 > Wider Encryption support to be added soon for the Encryptor! 
 > More modules to be added!
+> New UPDATE COMING SOON! Integration with Vulnerous-web! An awesome complete web app vulnerability scanner tool modeled on Rapidscan!
 
 
 ## Suites
