@@ -6,6 +6,7 @@
 5) Decrypt a file using a key
 6) Feature to store it in cloud-- Dropbox or google Drive
 
+This is AES 128, 16 bit key
 '''
 import getpass
 import random
