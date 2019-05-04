@@ -1,15 +1,16 @@
-# Vulnerous v2.0
+# Vulnerous v3.0
 
 Vulnerous is a linux script that aggregates several network security and analysis features into an easy to understand package. **Vulnerous** provides a simplified **commandline** interface which is best suited for beginners and security enthusiasts trying to dive into cybersecurity.
 
-### What's New in version 2.0?
-> The Encryptor© by Ankush Sharma support provided. 
-> Now encrypt your passwords by state of the art AES 128 bit Encryption. A protected file available for easy sharing on web makes your life easy as a security admin of your team!
+### What's New in version 3.0?
+> Vulnerous-web© by Ankush Sharma support provided. 
+> Make comprehensive Vulnerability reports of any website by Vulnerous-web! Over 80 different checks and 20 different tools available!
+> HUGE UI CHANGE! Vulnerous now comprises of terminal colors. Better interactive experience and more modules support.
+> Bug fixes.
 
 ### Upcoming
 > Wider Encryption support to be added soon for the Encryptor! 
 > More modules to be added!
-> New UPDATE COMING SOON! Integration with Vulnerous-web! An awesome complete web app vulnerability scanner tool modeled on Rapidscan!
 
 
 ## Suites
@@ -19,6 +20,7 @@ Vulnerous is still in development and consists of the following suites :-
 - **IP Finder Suite** - The IP Finder helps you to find both your public and private IP's with a quick command.
 - **Reconnaissance Suite** - The reconnaissance suite integrates several features from N-Map to intelligently find and document your results. Reports are generated to document analysed networks.
 - **The Encryptor©** - The Encryptor allows for a wider cryptographic access within Vulnerous. Read more about the encryptor at [Encryptor©](https://github.com/ScorchingShade/Encryptor)
+- **Vulnerous-web©** - Vulnerous-web allows for comprehensive Vulnerability analysis for any url/website/webapp. Read more about Vulnerous-web at [Vulnerous-web©](https://github.com/ScorchingShade/Vulnerous-web)
 
 ## Understanding Vulnerous
 ![alt text](https://github.com/ScorchingShade/Vulnerous/blob/master/uml_vulnerous.png)
@@ -42,7 +44,7 @@ sudo apt-get install N-MAP
 ```terminal
 sudo apt-get install bc
 ```
-- **Linux OS** - Debian based distro is preferred.
+- **Linux OS** - Kali linux is preferred.
 
 ### Using Vulnerous
 - To start Vulnerous, clone the repository and install any prerequisite package.
