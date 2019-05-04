@@ -14,7 +14,7 @@
 #To learn more about the encryptor visit https://github.com/ScorchingShade/Vulnerous-web ######## 
 
 
-VERSION="2.5"
+VERSION="3.0"
 #### Declare global vars ##########
 CURRENT_DIR=`pwd`
 ###Fetch IP public and private#####
