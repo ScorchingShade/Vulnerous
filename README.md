@@ -10,7 +10,7 @@ Vulnerous is a linux script that aggregates several network security and analysi
 
 ### Upcoming
 > Wider Encryption support to be added soon for the Encryptor! 
-> More modules to be added!
+> Support for windows coming soon!! A Java based Aes-256 encryption locker to be available soon!
 
 
 ## Suites
