@@ -2,3 +2,6 @@
 - idea - Need to implement a working version for windows. - Needs to be dockerised with necessary tools to run as a complete package
 - [ScorchingShade](https://github.com/ScorchingShade)
 ---
+- Jon
+- idea - providing raw logs would be a useful feature. Possibly formatting in json to integrate with the popular log ingestors/security event managers (Snort, OSSIM, etc.)
+- [jongodinez](https://github.com/jongodinez)
