@@ -44,8 +44,12 @@ sudo apt-get install N-MAP
 ```terminal
 sudo apt-get install bc
 ```
+- **Command Line Ip Calculator** --> Download 'ipcalc' calculator using the following command.
+    - Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
+```terminal
+sudo apt-get install ipcalc
+```
 - **Linux OS** - Kali linux is preferred.
-
 ### Using Vulnerous
 - To start Vulnerous, clone the repository and install any prerequisite package.
 - Make the script executable by typing following as root in terminal :
