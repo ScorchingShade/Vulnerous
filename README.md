@@ -40,7 +40,7 @@ or using the commandline utility on debian systems
 ```terminal
 sudo apt-get install N-MAP
 ```
-- **Command Line Calculator** --> Download the 'bc' calculator using following commands.
+- **Command Line Calculator** --> Download the 'bc' calculator using following command.
 ```terminal
 sudo apt-get install bc
 ```
@@ -49,6 +49,12 @@ sudo apt-get install bc
 ```terminal
 sudo apt-get install ipcalc
 ```
+- **Command Line utility to download files from the web** --> Download 'wget' using the following command.
+
+```terminal
+sudo apt-get install wget
+```
+
 - **Linux OS** - Kali linux is preferred.
 ### Using Vulnerous
 - To start Vulnerous, clone the repository and install any prerequisite package.
